@@ -29,7 +29,6 @@ $students = $conn->query("SELECT * FROM students")->fetchAll();
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel= "stylesheet" href = "style.css">
     <title>Student List</title>
 
 </head>
@@ -70,3 +69,4 @@ $students = $conn->query("SELECT * FROM students")->fetchAll();
 
 </body>
 </html>
+
