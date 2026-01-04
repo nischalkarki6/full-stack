@@ -1,0 +1,64 @@
+:root {
+    --primary: #e63946;
+    --primary-dark: #d00000;
+    --primary-light: #ffa8b6;
+    --danger: #e63946;
+    --success: #2a9d8f;
+    
+    --bg: #fff5f5;
+    --card-bg: #ffffff;
+    --nav-bg: #ffeaea;
+    --input-bg: #ffffff;
+    
+    --text: #2b2d42;
+    --text-muted: #6d6875;
+    --nav-text: #2b2d42;
+    
+    --border: #ffb4a2;
+    --nav-hover: #ffccd5;
+    
+    --shadow: 0 4px 6px rgba(230, 57, 70, 0.1);
+}
+
+body {
+    background-color: var(--bg);
+}
+
+.navbar {
+    background: linear-gradient(135deg, #ffeaea 0%, #ffccd5 100%);
+}
+
+.card {
+    border-left: 5px solid var(--primary);
+}
+
+.form-group input:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(230, 57, 70, 0.2);
+}
+
+.submit-btn {
+    background: linear-gradient(135deg, #e63946 0%, #d00000 100%);
+}
+
+.submit-btn:hover {
+    background: linear-gradient(135deg, #d00000 0%, #9d0208 100%);
+}
+
+.action-btn {
+    background: linear-gradient(135deg, #e63946 0%, #d00000 100%);
+}
+
+.action-btn:hover {
+    background: linear-gradient(135deg, #d00000 0%, #9d0208 100%);
+}
+
+.theme-btn.red-btn {
+    background: linear-gradient(135deg, #e63946 0%, #9d0208 100%);
+    box-shadow: 0 6px 12px rgba(230, 57, 70, 0.3);
+}
+
+.theme-btn.blue-btn {
+    background: linear-gradient(135deg, #a8dadc 0%, #457b9d 100%);
+    color: #2b2d42;
+}
