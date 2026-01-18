@@ -1,0 +1,17 @@
+{
+    "name": "nischal/workshop8",
+    "autoload": {
+        "psr-4": {
+            "Nischal\\Workshop8\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nischal Karki6",
+            "email": "np03cs4a240089@heraldcollege.edu.np"
+        }
+    ],
+    "require": {
+        "jenssegers/blade": "^1.4"
+    }
+}
